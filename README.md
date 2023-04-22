@@ -3,14 +3,18 @@
 ## Install
 
 1. Clone this repository and navigate to LLaVA folder
+
 ```bash
 git https://github.com/dholendar27/Notion-db.git
 cd Notion-db
 ```
+
 2. Install requriements.txt
+
 ```bash
 pip install -r requirements.txt
 ```
+
 3. Add `Notion Token` and `Database Id` in the .env file (To get the `notion Token` and `Database Id` follow below steps)
 
 ### Follow these steps for creating a Notion Integration:
@@ -43,8 +47,8 @@ To build the integration, click the "Submit" button. You will receive an Integra
 
 ![notion database id](https://files.readme.io/62e5027-notion_database_id.png)
 
-
 ## RUN
+
 ```bash
     python main.py
 ```
