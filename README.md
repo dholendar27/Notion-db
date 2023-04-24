@@ -2,7 +2,7 @@
 
 ## Install
 
-1. Clone this repository and navigate to LLaVA folder
+1. Clone this repository and navigate to Notion-db folder
 
 ```bash
 git https://github.com/dholendar27/Notion-db.git
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 To build the integration, click the "Submit" button. You will receive an Integration Token (API key) once the integration has been setup. You'll need this token to use the NotionDBLoader, so copy it and store it safely.
 
-![Notion Integration](images\notion_integration.gif)
+![Notion Integration](images/notion_integration.gif)
 
 ### The steps below should be followed to link your integration to the database:
 
@@ -41,9 +41,9 @@ To build the integration, click the "Submit" button. You will receive an Integra
 
 4. You might need to start entering the name of your integration in the search box to find it and select it.
 
-![Notion Integration](images\Adding_database_to_integration.gif)
+![Notion Integration](images/Adding_database_to_integration.gif)
 
-#### Copy the URL of your Notion database to obtain the database ID. Make sure you are viewing the inline database as a complete page if you are using one. To discover the database URL while using the Notion desktop application, click Share and then choose Copy link.
+Copy the URL of your Notion database to obtain the database ID. Make sure you are viewing the inline database as a complete page if you are using one. To discover the database URL while using the Notion desktop application, click Share and then choose Copy link.
 
 ![notion database id](https://files.readme.io/62e5027-notion_database_id.png)
 
